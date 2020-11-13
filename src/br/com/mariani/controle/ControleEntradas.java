@@ -1,4 +1,4 @@
-package br.com.mariani.main.controle;
+package br.com.mariani.controle;
 
 import br.com.mariani.modelo.Camarote;
 import br.com.mariani.modelo.Normal;

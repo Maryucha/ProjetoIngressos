@@ -1,6 +1,6 @@
 package br.com.mariani.main;
 
-import br.com.mariani.main.controle.ControleEntradas;
+import br.com.mariani.controle.ControleEntradas;
 
 /**
  *
