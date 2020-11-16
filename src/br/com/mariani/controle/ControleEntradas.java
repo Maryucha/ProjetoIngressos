@@ -22,7 +22,9 @@ public class ControleEntradas {
                          +"\n Entrada Camarote R$"+cam.getVlrCamarore());
        
         System.out.println("Tipos de Ingressos: "
-                          +normal.tipoIngresso()
+                          +"\n "+normal.tipoIngresso()
+                          +"\n "+vip.tipoIngresso()
+                          +"\n "+cam.tipoIngresso()
             );
                 
        
