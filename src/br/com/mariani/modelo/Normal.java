@@ -1,12 +1,14 @@
 package br.com.mariani.modelo;
 
+import br.com.mariani.controle.TrasCoisas;
+
 /**
  *
  * @author maryucha
  */
-public class Normal extends Ingresso {
+public class Normal extends Ingresso implements TrasCoisas{
 
-    private double vlrNormal = 100;
+    private final double vlrNormal = 100;
 
     public Normal() {
 
@@ -14,11 +16,16 @@ public class Normal extends Ingresso {
 
     public Normal(double vlrNormal, double vlrIngresso) {
         super(vlrIngresso);
-        this.vlrNormal = vlrNormal;
+       
     }
 
     public double getVlrNormal() {
         return vlrNormal + super.getVlrIngresso();
+    }
+
+    @Override
+    public void tipoIngresso() {
+        String tipoCamarote = "NORMAL";
     }
 
 }

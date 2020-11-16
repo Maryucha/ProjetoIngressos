@@ -1,12 +1,14 @@
 package br.com.mariani.modelo;
 
+import br.com.mariani.controle.TrasCoisas;
+
 /**
  *
  * @author maryucha
  */
-public class Camarote extends Ingresso{
+public class Camarote extends Ingresso implements TrasCoisas{
 
-  private double vlrCamarore=500;
+  private  final double vlrCamarore=500;
 
     public Camarote() {
         
@@ -14,14 +16,17 @@ public class Camarote extends Ingresso{
 
     public Camarote(double vlrCamarore, double vlrIngresso) {
         super(vlrIngresso);
-        this.vlrCamarore = vlrCamarore;
+      
     }
 
     public double getVlrCamarore() {
         return vlrCamarore+super.getVlrIngresso();
     }
-  
-  
 
+    @Override
+    public void tipoIngresso() {
+        String tipoCamarote = "CAMAROTE";
+    }
+  
   
 }
