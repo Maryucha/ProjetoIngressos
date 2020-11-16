@@ -24,8 +24,11 @@ public class Vip extends Ingresso implements TrasCoisas{
     }
 
     @Override
-    public void tipoIngresso() {
+    public String tipoIngresso() {
        String tipoCamarote = "VIP";
+        return tipoCamarote;
     }
+
+
     
 }

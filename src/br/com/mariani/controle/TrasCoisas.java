@@ -6,5 +6,5 @@ package br.com.mariani.controle;
  */
 public interface TrasCoisas {
 
-    public void tipoIngresso();
+    public String tipoIngresso();
 }

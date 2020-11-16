@@ -24,8 +24,9 @@ public class Normal extends Ingresso implements TrasCoisas{
     }
 
     @Override
-    public void tipoIngresso() {
+    public String tipoIngresso() {
         String tipoCamarote = "NORMAL";
+        return tipoCamarote;
     }
 
 }

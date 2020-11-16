@@ -21,6 +21,11 @@ public class ControleEntradas {
                          +"\n Entrada Vip R$"+vip.getVlrVip()
                          +"\n Entrada Camarote R$"+cam.getVlrCamarore());
        
+        System.out.println("Tipos de Ingressos: "
+                          +normal.tipoIngresso()
+            );
+                
+       
    }
     
 }

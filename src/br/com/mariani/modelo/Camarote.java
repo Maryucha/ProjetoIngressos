@@ -24,9 +24,11 @@ public class Camarote extends Ingresso implements TrasCoisas{
     }
 
     @Override
-    public void tipoIngresso() {
+    public String tipoIngresso() {
         String tipoCamarote = "CAMAROTE";
+        return tipoCamarote;
     }
+
   
   
 }
